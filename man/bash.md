@@ -23,3 +23,13 @@ if [ -d "$path" ]; then
     # $path is a path a directory that exists
 fi
 ```
+
+Other useful operators:
+```(bash)
+-d - File exists and it is a folder
+-e - File exists
+-r - You have a right to read a file
+-s - File exists and it's not empty
+-w - You have a right wo write to a file
+...
+```
