@@ -16,3 +16,10 @@ set -o emacs
 To show the command in command-line press `<Ctrl+P>`.
 
 Use built-in command `fc` to open some editor and insert last command into it.
+
+## How to check whether path is a directory?
+```(bash)
+if [ -d "$path" ]; then
+    # $path is a path a directory that exists
+fi
+```
