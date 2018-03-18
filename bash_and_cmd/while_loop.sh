@@ -5,6 +5,5 @@ exec 0</etc/passwd
 
 counter=1
 while read line; do
-    echo "$counter: $line"
-    $((counter++))
+    echo "$((counter++)): $line"
 done
