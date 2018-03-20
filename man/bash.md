@@ -54,3 +54,9 @@ For more verbosity do this:
 ```(bash)
 find . -name "<pattern>" | while read fname; do echo "mv $fname ${fname/<from>/<to>}"; done | bach -x
 ```
+
+## while read
+`while read` is a very useful staff. You can redirect output from one app with pipe to while read construction and do anything you want with it on bash:
+```(bash)
+smth | while read line; do echo $line; done
+```
