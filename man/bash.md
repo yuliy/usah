@@ -45,12 +45,12 @@ find . -name "<pattern>"
 find . -name "<pattern>" | while read fname; do mv $fname ${fname/<from>/<to>}; done
 ```
 
-Use echo for debugging:
+You can use echo for debugging:
 ```(bash)
-find . -name "<pattern>" | while read fname; do echo mv $fname ${fname/<from>/<to>}; done
+find . -name "<pattern>" | while read fname; do echo "mv $fname ${fname/<from>/<to>}"; done
 ```
 
 For more verbosity do this:
 ```(bash)
-find . -name "<pattern>" | while read fname; do mv $fname ${fname/<from>/<to>}; done | bach -x
+find . -name "<pattern>" | while read fname; do echo "mv $fname ${fname/<from>/<to>}"; done | bach -x
 ```
