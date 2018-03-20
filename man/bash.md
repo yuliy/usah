@@ -33,3 +33,24 @@ Other useful operators:
 -w - You have a right wo write to a file
 ...
 ```
+
+## How to find all files with names that match a given pattern?
+In a current directory:
+```(bash)
+find . -name "<pattern>"
+```
+
+## How to rename all files with names that match a given pattern?
+```(bash)
+find . -name "<pattern>" | while read fname; do mv $fname ${fname/<from>/<to>}; done
+```
+
+Use echo for debugging:
+```(bash)
+find . -name "<pattern>" | while read fname; do echo mv $fname ${fname/<from>/<to>}; done
+```
+
+For more verbosity do this:
+```(bash)
+find . -name "<pattern>" | while read fname; do mv $fname ${fname/<from>/<to>}; done | bach -x
+```
