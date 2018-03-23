@@ -8,3 +8,5 @@ Site of the book: http://admin.com/
 [Bash](man/bash.md)
 
 [Regular expressions](man/regex.md)
+
+[Signals](man/signals.md)
