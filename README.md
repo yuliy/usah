@@ -10,3 +10,5 @@ Site of the book: http://admin.com/
 [Regular expressions](man/regex.md)
 
 [Signals](man/signals.md)
+
+[System info](man/system_info.md)
