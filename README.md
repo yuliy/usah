@@ -12,3 +12,5 @@ Site of the book: http://admin.com/
 [Signals](man/signals.md)
 
 [System info](man/system_info.md)
+
+[strace](man/strace.md)
