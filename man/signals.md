@@ -3,7 +3,7 @@
 
 ## Where can I get list of all signals?
 You can call `kill -l` e.g.:
-```
+```(bash)
 > kill -l
  1) SIGHUP	 2) SIGINT	 3) SIGQUIT	 4) SIGILL
  5) SIGTRAP	 6) SIGABRT	 7) SIGEMT	 8) SIGFPE
