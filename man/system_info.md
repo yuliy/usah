@@ -7,6 +7,7 @@ List of useful tools:
   * htop
   * prstat
   * topas
+  * vmstat
   * /proc
 
 ## /proc
