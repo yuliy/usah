@@ -14,3 +14,4 @@ The better ways of adding/modifying users are:
   * using GUI tools in your system
   * using some wrap-system that allowes to modify users on multiple machines simultaneously (e.g. some corparate systems)
 
+**Note!** In most systems command line tools are called `useradd`, `userdel`, `usermod`. But these tools may have different interface/behaviour in different systems. Moreover, these may be aliases to some system-specific tools. Hence, you'd better read corresponding man pages before using it.
