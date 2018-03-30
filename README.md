@@ -14,3 +14,5 @@ Site of the book: http://admin.com/
 [System info](man/system_info.md)
 
 [strace](man/strace.md)
+
+[Adding/modifying users](man/users.md)
