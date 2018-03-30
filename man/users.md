@@ -1,4 +1,16 @@
 
 # Adding/modifying users
 
-!!TODO!!
+## Tools
+There different ways of adding/modifying users on unix/linux systems. The basic (low-level) way of doing this is manually chaning these files:
+  * `/etc/passwd` - list of all users (with ID, name, default-group, encrypted password etc)
+  * `/etc/group` - list of all groups and their members
+There also some additionals files like `/etc/shadow` (list of encrypted users' passwords) or `/etc/gshadow` (list of encrypted groups' passwords) etc. Names of these files may vary on different systems.
+
+If you change these files manually, you should check whether these files are consistent and synced. Well, there are some tools that can help you checking. E.g. grpck. But you are to remember calling it manually.
+
+The better ways of adding/modifying users are:
+  * using tools `useradd`, `userdel`, `usermod` - if you wanna do it via command line on a single machine (or some limited list of machines)
+  * using GUI tools in your system
+  * using some wrap-system that allowes to modify users on multiple machines simultaneously (e.g. some corparate systems)
+
