@@ -23,7 +23,7 @@ There are two basic tools of adding users in Linux: `useradd` and `adduser`. `ad
 
 Example of adding new user:
 ```(bash)
-# Create new user "yuliy" with
+# Create new user "yuliy"
 #   in main group "faculty"
 #   also added into group "famous"
 #   with home directory ad "/home/math/yuliy"
