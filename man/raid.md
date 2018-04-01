@@ -13,5 +13,5 @@ Types of RAID:
 ## Configuring RAID in Linux
 In Linux there is `md` tool ("multiple disks"). Its external interface is provided by `mdadm` tool.
 
-You can find short information concerning md driver status in `/proc/mdstat`.
+You can find short information concerning md driver status in `/proc/mdstat`. Configuration file is stored at `/etc/mdadm.conf`.
 
