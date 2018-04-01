@@ -16,3 +16,5 @@ Site of the book: http://admin.com/
 [strace](man/strace.md)
 
 [Adding/modifying users](man/users.md)
+
+[RAID](man/raid.md)
